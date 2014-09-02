@@ -1,6 +1,6 @@
 {
   "name": "array-remove-by-value",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple function for removing values from arrays",
   "main": "index.js",
   "scripts": {

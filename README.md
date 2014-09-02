@@ -14,7 +14,7 @@ npm install array-remove-by-value --save
 Array.prototype.remove = require("array-remove-by-value")
 
 var fruits = ['orange', 'apple', 'banana'];
-a.remove('apple');
-console.log(a)
+fruits.remove('apple');
+console.log(fruits)
 // ['orange', 'banana']
 ```
