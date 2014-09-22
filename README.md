@@ -1,20 +1,3 @@
 # array-remove-by-value
 
-A simple function for removing values from arrays. They say you're not supposed to monkey patch, but I don't care.
-
-## Installation
-
-```sh
-npm install array-remove-by-value --save
-```
-
-## Usage
-
-```js
-Array.prototype.remove = require("array-remove-by-value")
-
-var fruits = ['orange', 'apple', 'banana'];
-fruits.remove('apple');
-console.log(fruits)
-// ['orange', 'banana']
-```
+This npm package is deprecated. Use [remove-value](https://github.com/tjconcept/js-remove-value) instead. It's better.
